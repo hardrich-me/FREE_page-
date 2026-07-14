@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rewired — Kill the Loop in 90 Days</title>
+<meta name="description" content="A structured 90-day Notion system that kills a compulsive screen habit at its source — the idle hours where it starts.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ============ ANNOUNCEMENT BAR ============ -->
+<div class="announcement-bar">
+  <p class="announcement-bar__text">Founding access closes when the next cohort opens — lock in free lifetime updates now.</p>
+  <a href="https://selar.com/rebuildyourlifetoday" class="announcement-bar__cta">Start Rewiring →</a>
+</div>
+
+<!-- ============ STICKY NAV ============ -->
+<nav class="nav" id="mainNav" aria-label="Primary">
+  <a href="#hero" class="nav__logo">REWIRED</a>
+  <ul class="nav__links">
+    <li><a href="#whats-inside">What's Inside</a></li>
+    <li><a href="#creator">Creator</a></li>
+    <li><a href="#offer">Pricing</a></li>
+    <li><a href="#faq">FAQ</a></li>
+  </ul>
+  <a href="https://selar.com/rebuildyourlifetoday" class="btn btn--accent btn--nav" id="navCta">Start Rewiring</a>
+</nav>
+
+<main>
+
+<!-- ============ HERO ============ -->
+<header class="hero" id="hero">
+  <div class="hero__inner">
+    <p class="hero__pretitle">For remote workers, students, and freelancers who keep losing hours they can't get back</p>
+    <h1 class="hero__headline">How to Break the Screen Habit That's Lying to You in 90 Days — Even If You've Tried and Failed Before</h1>
+    <p class="hero__subheadline">A structured Notion system that kills the habit at its source — the idle hours — instead of fighting it with willpower.</p>
+
+    <div class="hero__mockup">
+      <img src="assets/product-mockup.jpg" alt="Rewired Notion workspace: Start Here, My Day, Interrupt, Daily Tracker, and Progress pages" width="523" height="763" loading="eager">
+    </div>
+
+    <div class="hero__badges">
+      <span class="badge">90-Day System</span>
+      <span class="badge">Built &amp; Used Daily by the Creator</span>
+      <span class="badge">Instant Notion Access</span>
+    </div>
+
+    <a href="https://selar.com/rebuildyourlifetoday" class="btn btn--accent btn--large hero__cta">Start Rewiring</a>
+    <p class="hero__microtrust">Instant access · No app to install · Works inside Notion</p>
+  </div>
+</header>
+
+<!-- ============ THE PROBLEM ============ -->
+<section class="section section--bg" id="problem" aria-labelledby="problem-heading">
+  <div class="section__inner section__inner--narrow">
+    <h2 id="problem-heading" class="section__heading">Sound Familiar?</h2>
+    <p class="section__intro">Your habit isn't a weakness. It's a liar. It whispers that one more scroll will fix something. It won't.</p>
+
+    <ul class="pain-list">
+      <li class="pain-item">
+        <svg class="icon icon--error" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+        <span>I told myself I'd stop, and then it was 2am and I hadn't.</span>
+      </li>
+      <li class="pain-item">
+        <svg class="icon icon--error" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+        <span>I've deleted the app before and reinstalled it within a week.</span>
+      </li>
+      <li class="pain-item">
+        <svg class="icon icon--error" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+        <span>I know exactly what's happening to me and I still can't stop it.</span>
+      </li>
+      <li class="pain-item">
+        <svg class="icon icon--error" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+        <span>Every night I lose to this, I believe a little less that I can actually change.</span>
+      </li>
+      <li class="pain-item">
+        <svg class="icon icon--error" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+        <span>I look up and hours are just gone, and I built nothing.</span>
+      </li>
+    </ul>
+
+    <p class="section__closing">If any of this sounds like you — keep reading. This is for you.</p>
+  </div>
+</section>
+
+<!-- ============ THE AGITATION ============ -->
+<section class="section agitation" id="agitation" aria-labelledby="agitation-heading">
+  <div class="section__inner section__inner--narrow section__inner--center">
+    <div class="loop-mark" aria-hidden="true">
+      <svg viewBox="0 0 40 40" fill="none"><path d="M20 4a16 16 0 1 1-11.3 4.7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><path d="M20 4 14 2m6 2-2 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </div>
+    <h2 id="agitation-heading" class="section__heading">The Days Are Adding Up Without You</h2>
+    <p class="section__intro">Staying stuck doesn't feel like a decision. It feels like nothing happening — while life keeps moving, other people keep moving, and you stay in the same spot. Aware of it. Hating it. Still stuck in it. A little less sure each time that you can actually change.</p>
+    <p class="section__transition">But there's a better way.</p>
+  </div>
+</section>
+
+<!-- ============ THE INTRODUCTION ============ -->
+<section class="section section--bg" id="introduction" aria-labelledby="intro-heading">
+  <div class="section__inner">
+    <div class="intro-grid">
+      <div class="intro-grid__visual">
+        <img src="assets/product-mockup.jpg" alt="Rewired 90-day Notion system workspace overview" width="523" height="763" loading="lazy">
+      </div>
+      <div class="intro-grid__copy">
+        <h2 id="intro-heading" class="section__heading">Introducing Rewired</h2>
+        <p class="section__subheading">A 90-day system that closes the gap between who you are right now and who you actually want to be.</p>
+        <p class="body-large">I built Rewired because blocking apps and willpower never worked for me — the urge always found a way around them. So I stopped fighting the symptom and went after the idle hours where the loop actually starts. Ninety days later, I had my time back, and I built this system so you can get yours back too.</p>
+        <a href="https://selar.com/rebuildyourlifetoday" class="btn btn--accent">Start Rewiring</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WHAT'S INSIDE ============ -->
+<section class="section" id="whats-inside" aria-labelledby="inside-heading">
+  <div class="section__inner">
+    <h2 id="inside-heading" class="section__heading section__heading--center">Here's Exactly What You Get</h2>
+
+    <div class="card-grid">
+      <article class="card feature-card">
+        <span class="feature-card__num">01</span>
+        <svg class="icon icon--accent" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2"/><path d="M12 7v5l3 3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <h3 class="feature-card__name">Start Here</h3>
+        <p class="feature-card__outcome">Breaks down exactly how the habit lies to you and why you keep falling for it — so you finally understand the mechanism instead of just fighting it blind.</p>
+      </article>
+
+      <article class="card feature-card">
+        <span class="feature-card__num">02</span>
+        <svg class="icon icon--accent" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="3" stroke="currentColor" stroke-width="2"/><path d="M8 12h8M8 16h5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <h3 class="feature-card__name">My Day</h3>
+        <p class="feature-card__outcome">4 daily anchors that starve the habit of the idle oxygen it needs to survive, built directly into your day.</p>
+      </article>
+
+      <article class="card feature-card">
+        <span class="feature-card__num">03</span>
+        <svg class="icon icon--accent" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3v10M12 3l4 4M12 3 8 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M5 13a7 7 0 1 0 14 0" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <h3 class="feature-card__name">Interrupt</h3>
+        <p class="feature-card__outcome">One specific move to make the instant the pull shows up, so the urge gets killed on contact instead of building momentum.</p>
+      </article>
+
+      <article class="card feature-card">
+        <span class="feature-card__num">04</span>
+        <svg class="icon icon--accent" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 11l2 2 4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><rect x="4" y="4" width="16" height="16" rx="3" stroke="currentColor" stroke-width="2"/></svg>
+        <h3 class="feature-card__name">Daily Tracker</h3>
+        <p class="feature-card__outcome">A pre-built 90-day tracker with 6 fixed habits, so you never have to decide what to track or build the system yourself.</p>
+        <img class="feature-card__shot" src="assets/tracker-mockup.jpg" alt="Rewired Daily Tracker with 90 rows and habit checkboxes" loading="lazy">
+      </article>
+
+      <article class="card feature-card">
+        <span class="feature-card__num">05</span>
+        <svg class="icon icon--accent" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 19V9m6 10V5m6 14v-7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <h3 class="feature-card__name">Progress</h3>
+        <p class="feature-card__outcome">2 auto-updating charts so you can watch your consistency climb in real time instead of guessing whether it's working.</p>
+        <img class="feature-card__shot" src="assets/charts-mockup.jpg" alt="Rewired progress chart showing completion percentage trend" loading="lazy">
+      </article>
+
+      <article class="card feature-card">
+        <span class="feature-card__num">06</span>
+        <svg class="icon icon--accent" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 22s8-4.5 8-11V6l-8-3-8 3v5c0 6.5 8 11 8 11Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+        <h3 class="feature-card__name">Relapse Protocol</h3>
+        <p class="feature-card__outcome">A short guide for the day you slip, so one bad night doesn't undo 60 good days.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ABOUT THE CREATOR ============ -->
+<section class="section section--bg" id="creator" aria-labelledby="creator-heading">
+  <div class="section__inner">
+    <h2 id="creator-heading" class="section__heading section__heading--center">Hi, I'm Samuel</h2>
+    <div class="creator-grid">
+      <div class="creator-grid__photo">
+        <img src="assets/headshot.jpg" alt="Samuel Ojo, creator of Rewired" width="573" height="603" loading="lazy">
+      </div>
+      <div class="creator-grid__bio">
+        <p class="body-large">I'm not a therapist. I lived on the wrong side of this exact problem for years — the promises, the 2am scroll, the mornings I hated myself before I'd even had coffee. This was never a willpower problem. It was a structure problem, and once I saw that, I built the system that got me out of it.</p>
+        <p class="body-large">I'm building Rewired in public — using it myself every single day and improving it in real time based on how founding users actually use it. This isn't finished theory. It's a live system, and you'd be getting in on day one.</p>
+
+        <div class="stat-row">
+          <div class="stat-card"><span class="stat-card__label">Built In Public</span></div>
+          <div class="stat-card"><span class="stat-card__label">Used Daily by the Creator</span></div>
+          <div class="stat-card"><span class="stat-card__label">90-Day Proven Structure</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOUNDING COHORT PROOF ============ -->
+<section class="section founding" id="founding" aria-labelledby="founding-heading">
+  <div class="section__inner section__inner--narrow section__inner--center">
+    <svg class="founding__icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 19V9m6 10V5m6 14v-7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    <h2 id="founding-heading" class="section__heading">This Is Early — That's the Point</h2>
+    <p class="body-large">There's no highlight reel of results yet, and I'm not going to fake one. What's true right now: Rewired is built and used daily by me, in public, and improved in real time from how founding members actually use it. Every fix, every update, every sharper edge — it comes from this batch.</p>
+    <p class="body-large">Founding members lock in benefits the next batch won't get. You're not joining a finished product. You're shaping it — and getting rewarded for being early.</p>
+  </div>
+</section>
+
+<!-- ============ THE OFFER STACK ============ -->
+<section class="section section--bg" id="offer" aria-labelledby="offer-heading">
+  <div class="section__inner section__inner--narrow">
+    <h2 id="offer-heading" class="section__heading section__heading--center">Everything You Get When You Enroll Today</h2>
+    <p class="section__subheading section__subheading--center">A complete system worth ₦15,000 — yours for one low price.</p>
+
+    <div class="offer-stack">
+      <div class="card offer-card">
+        <h3 class="offer-card__name">Rewired 90-Day Notion System</h3>
+        <p class="offer-card__desc">Start Here + My Day + Interrupt + Daily Tracker + Progress dashboards + Relapse Protocol</p>
+        <span class="offer-card__value">Value: ₦9,000</span>
+      </div>
+      <div class="card offer-card offer-card--bonus">
+        <h3 class="offer-card__name">Bonus: Founding Member Lifetime Updates</h3>
+        <p class="offer-card__desc">Every future version of Rewired, free, forever.</p>
+        <span class="offer-card__value">Value: ₦2,000</span>
+      </div>
+      <div class="card offer-card offer-card--bonus">
+        <h3 class="offer-card__name">Bonus: Habit Swap List</h3>
+        <p class="offer-card__desc">Backup habits if one of the 6 doesn't fit your life.</p>
+        <span class="offer-card__value">Value: ₦4,000</span>
+      </div>
+    </div>
+
+    <div class="receipt">
+      <div class="receipt__row">
+        <span>Total value</span>
+        <span class="receipt__strike">₦15,000</span>
+      </div>
+      <div class="receipt__today">
+        <span>Today</span>
+        <span class="receipt__today-price">₦FREE</span>
+      </div>
+      <a href="https://selar.com/rebuildyourlifetoday" class="btn btn--accent btn--large receipt__cta">Start Rewiring</a>
+      <p class="receipt__trust">Secure checkout · Instant access · Lifetime updates for founding members</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WHO THIS IS FOR / NOT FOR ============ -->
+<section class="section" id="who-for" aria-labelledby="who-heading">
+  <div class="section__inner">
+    <h2 id="who-heading" class="section__heading section__heading--center">Who This Is For</h2>
+    <div class="fit-grid">
+      <div class="fit-col">
+        <h3 class="fit-col__heading fit-col__heading--yes">This Is For You If...</h3>
+        <ul class="fit-list">
+          <li><svg class="icon icon--success" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg><span>You've got long unsupervised stretches in your day — remote work, school, freelancing.</span></li>
+          <li><svg class="icon icon--success" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg><span>You keep losing hours to your phone and hate it every time after.</span></li>
+          <li><svg class="icon icon--success" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg><span>You've tried blocking apps or willpower resets and they didn't stick.</span></li>
+          <li><svg class="icon icon--success" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg><span>You want structure, not another motivational push that fades in a day.</span></li>
+          <li><svg class="icon icon--success" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg><span>You're ready to track your days for 90 days straight, no shortcuts.</span></li>
+        </ul>
+      </div>
+      <div class="fit-col">
+        <h3 class="fit-col__heading fit-col__heading--no">This Is NOT For You If...</h3>
+        <ul class="fit-list">
+          <li><svg class="icon icon--error" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg><span>You're only looking for a productivity app, not a personal reset.</span></li>
+          <li><svg class="icon icon--error" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg><span>You want a fix without doing the daily tracking work.</span></li>
+          <li><svg class="icon icon--error" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg><span>You're not ready to admit this is a problem yet.</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="section section--bg" id="faq" aria-labelledby="faq-heading">
+  <div class="section__inner section__inner--narrow">
+    <h2 id="faq-heading" class="section__heading section__heading--center">Questions, Answered</h2>
+
+    <div class="accordion">
+      <div class="accordion-item">
+        <h3 class="accordion-item__header">
+          <button class="accordion-item__trigger" aria-expanded="false">
+            <span>What exactly do I get when I enroll?</span>
+            <svg class="accordion-item__icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M12 5v14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </button>
+        </h3>
+        <div class="accordion-item__panel">
+          <p>A single Notion template with 5 pages: Start Here, My Day, Interrupt, Daily Tracker, and Progress. You duplicate it into your own Notion account and it's yours — no app to download, no separate login.</p>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h3 class="accordion-item__header">
+          <button class="accordion-item__trigger" aria-expanded="false">
+            <span>Do I need to know how to use Notion?</span>
+            <svg class="accordion-item__icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M12 5v14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </button>
+        </h3>
+        <div class="accordion-item__panel">
+          <p>No. Everything is pre-built — you just open it, read Start Here, and start checking boxes on Day 1. If you can tick a checkbox, you can run this system.</p>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h3 class="accordion-item__header">
+          <button class="accordion-item__trigger" aria-expanded="false">
+            <span>I've tried trackers and blocking apps before and they didn't work. Why would this be different?</span>
+            <svg class="accordion-item__icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M12 5v14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </button>
+        </h3>
+        <div class="accordion-item__panel">
+          <p>Blocking apps fight the symptom. Rewired targets the idle hours where the loop actually starts, then gives you a specific move for the moment the pull shows up — instead of relying on you to just resist it.</p>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h3 class="accordion-item__header">
+          <button class="accordion-item__trigger" aria-expanded="false">
+            <span>What happens if I slip up mid-program?</span>
+            <svg class="accordion-item__icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M12 5v14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </button>
+        </h3>
+        <div class="accordion-item__panel">
+          <p>You use the Relapse Protocol — a short guide built for exactly this moment. One bad night doesn't undo 60 good days. The system expects slips and gives you a way back in, same day.</p>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h3 class="accordion-item__header">
+          <button class="accordion-item__trigger" aria-expanded="false">
+            <span>Is this a course or an app?</span>
+            <svg class="accordion-item__icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M12 5v14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </button>
+        </h3>
+        <div class="accordion-item__panel">
+          <p>Neither. It's a structured Notion system — part short training, part daily tool. There's nothing to watch for hours. You read Start Here once, then run the daily pages for 90 days.</p>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h3 class="accordion-item__header">
+          <button class="accordion-item__trigger" aria-expanded="false">
+            <span>How is this different from screen-time blockers?</span>
+            <svg class="accordion-item__icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M12 5v14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </button>
+        </h3>
+        <div class="accordion-item__panel">
+          <p>Blockers restrict access. Rewired restructures the hours where the urge builds in the first place, so there's less pull to fight later — with or without a blocker installed.</p>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h3 class="accordion-item__header">
+          <button class="accordion-item__trigger" aria-expanded="false">
+            <span>Are future updates included?</span>
+            <svg class="accordion-item__icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M12 5v14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </button>
+        </h3>
+        <div class="accordion-item__panel">
+          <p>Yes, for founding members — free, for life. As the system improves from real usage, your copy improves with it, at no extra cost. Future cohorts move to a separate paid tier for updates.</p>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h3 class="accordion-item__header">
+          <button class="accordion-item__trigger" aria-expanded="false">
+            <span>What's your refund policy?</span>
+            <svg class="accordion-item__icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M12 5v14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </button>
+        </h3>
+        <div class="accordion-item__panel">
+          <p>No refunds. This is a digital system you get full access to immediately, and it only works if you run it. If you're not ready to commit to the 90 days, hold off until you are.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ URGENCY BLOCK ============ -->
+<section class="section urgency" id="urgency" aria-labelledby="urgency-heading">
+  <div class="section__inner section__inner--narrow section__inner--center">
+    <h2 id="urgency-heading" class="section__heading">Founding Access Won't Stay Open</h2>
+    <p class="section__subheading">The next cohort doesn't get free lifetime updates or the Habit Swap List. This batch does.</p>
+    <a href="https://selar.com/rebuildyourlifetoday" class="btn btn--accent btn--large">Start Rewiring</a>
+  </div>
+</section>
+
+<!-- ============ FINAL CLOSE ============ -->
+<section class="section final-close" id="final-close" aria-labelledby="final-heading">
+  <div class="section__inner section__inner--narrow section__inner--center">
+    <h2 id="final-heading" class="section__heading">This Is Your Decision Point.</h2>
+    <p class="body-large">You can keep doing what you've been doing and see where you are in 90 days. Or you can Rewire it, starting now.</p>
+    <a href="https://selar.com/rebuildyourlifetoday" class="btn btn--accent btn--large">Start Rewiring</a>
+    <p class="hero__microtrust">Instant Notion access · No refunds, no shortcuts, no way out but through</p>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="footer__inner">
+    <p>&copy; 2026 Samuel Ojo. All rights reserved.</p>
+    <ul class="footer__links">
+      <li><a href="#">Privacy Policy</a></li>
+      <li><a href="#">Terms</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    <div class="footer__social" aria-label="Social links">
+      <a href="#" aria-label="X (Twitter)"><svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M18.9 2H22l-7.6 8.7L23.3 22h-7l-5.5-7.2L4.4 22H1.3l8.1-9.3L1 2h7.2l5 6.6L18.9 2Zm-1.2 18h1.7L7.4 3.9H5.6L17.7 20Z"/></svg></a>
+      <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M12 2c2.7 0 3 0 4.1.06 1.1.05 1.8.22 2.4.46.66.26 1.2.6 1.7 1.1.5.5.9 1.1 1.1 1.7.24.6.4 1.4.46 2.5.06 1.1.06 1.4.06 4.1s0 3-.06 4.1c-.05 1.1-.22 1.8-.46 2.5a4.6 4.6 0 0 1-1.1 1.7 4.6 4.6 0 0 1-1.7 1.1c-.6.24-1.4.4-2.4.46-1.1.06-1.4.06-4.1.06s-3 0-4.1-.06c-1.1-.05-1.8-.22-2.5-.46a4.6 4.6 0 0 1-1.7-1.1 4.6 4.6 0 0 1-1.1-1.7c-.24-.6-.4-1.4-.46-2.5C2 15 2 14.7 2 12s0-3 .06-4.1c.05-1.1.22-1.9.46-2.5.26-.66.6-1.2 1.1-1.7.5-.5 1.1-.9 1.7-1.1.6-.24 1.4-.4 2.5-.46C9 2 9.3 2 12 2Zm0 5a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 1.8a3.2 3.2 0 1 0 0 6.4 3.2 3.2 0 0 0 0-6.4ZM17.4 6a1.2 1.2 0 1 1-2.4 0 1.2 1.2 0 0 1 2.4 0Z"/></svg></a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
